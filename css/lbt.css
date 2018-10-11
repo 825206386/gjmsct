@@ -1,0 +1,77 @@
+#xlbox ul,ol {
+	list-style: none;
+}
+
+#xlbox {
+	width: 458px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+}
+
+#xlbox ul {
+	width: 9999px;
+	position: relative;
+}
+
+#xlbox ul li {
+	float: left;
+}
+
+#xlbox ul li img{
+	width: 458px;
+	height: 305px;
+}
+
+#xlbox ol {
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+#xlbox .current {
+	background: #333;
+}
+
+#xlbox ol li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	/*border: 1px solid red;*/
+	background: #666;
+	margin-right: 4px;
+	float: left;
+	cursor: pointer;
+	margin: 0 6px;
+    display: inline-block;
+}
+
+#xlbox span {
+	position: absolute;
+	width: 50px;
+	height: 70px;
+	/*font-size: 25px;*/
+	/*padding: 10px;*/
+	text-align: center;
+	line-height: 50px;
+	/*background: rgba(0, 0, 0, 0.3);*/
+	color: #fff;
+	top: 50%;
+	margin-top: -25px;
+	cursor: pointer;
+	z-index: 1;
+	display: none;
+}
+
+#xlbox #left {
+	left: 1px;
+}
+
+#xlbox #right {
+	right: 1px;
+}
+
+#xlbox:hover span {
+	display: block;
+}

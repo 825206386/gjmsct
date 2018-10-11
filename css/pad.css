@@ -1,0 +1,56 @@
+@media (min-width: 768px) and (max-width:1199px) {
+	#home {
+		height: 65vh;
+	}
+	#team .team-thumb {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#xlbox {
+		width: 395px;
+		height: 350px;
+		position: relative;
+		overflow: hidden;
+	}
+	#xlbox ul li img {
+		width: 395px;
+		height: 305px;
+	}
+	#team .join-team {
+		padding: 6px 0px 14px 0px;
+		margin-top: 20px;
+	}
+	#team .join-team p {
+		font-size: 18px;
+		letter-spacing: 0.8px;
+		line-height: 18px;
+	}
+}
+@media (min-width: 992px) and (max-width:1199px) {
+	#team .join-team {
+		padding: 6px 0px 14px 0px;
+		margin-top: 20px;
+	}
+	#team .join-team p {
+		font-size: 18px;
+		letter-spacing: 0.8px;
+		line-height: 18px;
+	}
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+	#team .join-team {
+		padding: 50px 0px 41px 0px;
+	}
+	#team .join-team p {
+		font-size: 18px;
+		letter-spacing: 0.8px;
+		line-height: 68px;
+	}
+}
+
+@media (max-width: 900px) {
+	h1 {
+		font-size: 70px;
+	}
+}

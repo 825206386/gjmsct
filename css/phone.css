@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+	.navbar-default .navbar-brand {
+		line-height: 46px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-brand {
+		line-height: 15px;
+	}
+	.navbar-default .navbar-nav li a {
+		line-height: 30px;
+	}
+	#feature .col-md-4,
+	#about .col-md-5,
+	footer .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.filter-wrapper {
+		padding: 0px;
+	}
+	#xlbox {
+	width: 345px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	}
+	#xlbox ul li img{
+	width: 345px;
+	height: 305px;
+	}
+}
+
+@media (max-width: 768px) {
+	#home {
+		height: 100vh;
+	}
+	h1 {
+		font-size: 60px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	#feature {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	#about,
+	#feature,
+	#video,
+	#menu,
+	#team,
+	#gallery,
+	#contact {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	#menu .media-object img {
+		width: 100%;
+		padding-bottom: 14px;
+	}
+	#menu .media-object span.menu-price {
+		top: 30%;
+		left: 6%;
+	}
+	footer {
+		text-align: center;
+	}
+	#xlbox {
+	width: 345px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	}
+	#xlbox ul li img{
+	width: 345px;
+	height: 305px;
+	}
+}
