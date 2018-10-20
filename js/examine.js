@@ -77,7 +77,7 @@ if(result.matches) {
 	e.stopPropagation();
 	//显示图片
 	$('#YLimg').attr('src', $(this).attr('href')).css({
-		'width': ($(window).width()*0.8)+'px'
+		'width': ($(window).width()*0.6)+'px'
 	});
 	$('#YLimgwrap').show();
 
@@ -101,7 +101,7 @@ if(result.matches) {
 //=======上一页=======//
 $('#YLimgcon .prev').click(function() {
 	$('#YLimg').width("").height("").attr('src', imgSrcArray[a_flag_index - 1]).css({
-		'width': ($(window).width()*0.8)+'px'
+		'width': ($(window).width()*0.6)+'px'
 	});
 
 	if(a_flag_index > 1) {
@@ -115,7 +115,7 @@ $('#YLimgcon .prev').click(function() {
 //=======下一页=======//
 $('#YLimgcon .next').click(function() {
 	$('#YLimg').width("").height("").attr('src', imgSrcArray[a_flag_index + 1]).css({
-		'width': ($(window).width()*0.8)+'px'
+		'width': ($(window).width()*0.6)+'px'
 	});
 	
 	if(a_flag_index < (imgSrcArray.length - 2)) {
