@@ -1,4 +1,5 @@
-#xlbox ul,ol {
+#xlbox ul,
+ol {
 	list-style: none;
 }
 
@@ -18,7 +19,7 @@
 	float: left;
 }
 
-#xlbox ul li img{
+#xlbox ul li img {
 	width: 458px;
 	height: 305px;
 }
@@ -44,18 +45,15 @@
 	float: left;
 	cursor: pointer;
 	margin: 0 6px;
-    display: inline-block;
+	display: inline-block;
 }
 
 #xlbox span {
 	position: absolute;
 	width: 50px;
 	height: 70px;
-	/*font-size: 25px;*/
-	/*padding: 10px;*/
 	text-align: center;
 	line-height: 50px;
-	/*background: rgba(0, 0, 0, 0.3);*/
 	color: #fff;
 	top: 50%;
 	margin-top: -25px;
@@ -74,4 +72,72 @@
 
 #xlbox:hover span {
 	display: block;
+}
+
+
+
+/*查看详情*/
+
+#YLimgwrap {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .6);
+	z-index: 3000;
+	display: none;
+}
+
+#YLimgcon {
+	display: inline-block;
+	padding: 10px;
+	position: absolute;
+	/*background: #fff;*/
+}
+
+#YLimgcon h4 {
+	box-sizing: border-box;
+	height: 25px;
+	line-height: 20px;
+	padding: 0 0 5px;
+	font-size: 16px;
+	font-weight: normal;
+	/*background:#6CF*/
+}
+
+#YLimgcon h4 a {
+	float: right;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	margin-left: 6px;
+	overflow: hidden;
+	cursor: pointer;
+	background-image: url(../images/close.png);
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+
+#YLimgcon .prev,
+#YLimgcon .next {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	overflow: hidden;
+	margin-top: -20px;
+	/*display: none;*/
+}
+
+#YLimgcon .prev {
+	left: -30px;
+	background: url(../images/prev.png) left no-repeat;
+}
+
+#YLimgcon .next {
+	right: -30px;
+	background: url(../images/next.png) right no-repeat;
 }

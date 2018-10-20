@@ -125,7 +125,6 @@ a:focus {
 
 #about,
 #feature,
-#video,
 #menu,
 #team,
 #gallery,
@@ -136,7 +135,6 @@ a:focus {
 }
 
 #feature,
-#video,
 #team,
 #gallery,
 #contact {
@@ -349,45 +347,6 @@ a:focus {
 	font-weight: 400;
 	padding-top: 10px;
 	padding-bottom: 2px;
-}
-
-
-/* Video section  */
-
-#video {
-	background: url('../images/video-bg.jpg') 50% 0 repeat-y fixed;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-	color: #999;
-}
-
-#video .overlay {
-	background: rgba(03, 03, 03, 0.6);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-}
-
-#video h2 {
-	color: #ffffff;
-	padding-top: 20px;
-	padding-bottom: 16px;
-}
-
-#video .fa {
-	position: relative;
-	border: 2px solid #ffffff;
-	border-radius: 100px;
-	color: #ffffff;
-	font-size: 28px;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
-	text-align: center;
-	vertical-align: middle;
-	margin-top: 22px;
 }
 
 
